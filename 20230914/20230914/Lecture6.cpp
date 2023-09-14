@@ -4,7 +4,7 @@ int main(void) {
 	int jumsu;
 	char grade;
 
-	printf("Á¡¼öÀÔ·Â: ");
+	printf("ÃÂ¡Â¼Ã¶Ã€Ã”Â·Ã‚: ");
 	scanf_s("%d", &jumsu);
 
 	if (jumsu >= 90)
@@ -17,6 +17,7 @@ int main(void) {
 		grade = 'D';
 	else
 		grade = 'F';
-	printf("Á¡¼ö µî±Ş: %cÇĞÁ¡\n", grade);
+	printf("ÃÂ¡Â¼Ã¶ ÂµÃ®Â±Ã: %cÃ‡ÃÃÂ¡\n", grade);
 	return 0;
+	
 }
